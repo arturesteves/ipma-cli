@@ -68,3 +68,6 @@ tasks.todo
 
 # sugestions
 sugestions.txt
+
+# ignore package-lock file
+package-lock.json
