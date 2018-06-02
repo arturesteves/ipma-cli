@@ -71,3 +71,7 @@ sugestions.txt
 
 # ignore package-lock file
 package-lock.json
+
+# environment configs
+environment/.env_production
+environment/.env_development
