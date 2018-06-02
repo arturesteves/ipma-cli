@@ -75,3 +75,6 @@ package-lock.json
 # environment configs
 environment/.env_production
 environment/.env_development
+
+# location file
+.ipma-locations
