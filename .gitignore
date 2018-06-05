@@ -59,3 +59,22 @@ typings/
 
 # next.js build output
 .next
+
+# idea
+.idea/*
+
+# tasks
+tasks.todo
+
+# sugestions
+sugestions.txt
+
+# ignore package-lock file
+package-lock.json
+
+# environment configs
+environment/.env_production
+environment/.env_development
+
+# location file
+.ipma-locations
