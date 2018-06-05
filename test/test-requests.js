@@ -75,7 +75,8 @@ const data_requests = {
     forecast_day: {}
 };
 
-describe.only("Test correctness of simulation requests", function () {
+//describe.only("Test correctness of simulation requests", function () {
+describe("Test correctness of simulation requests", function () {
     it("Test keys of endpoint forecast local", function () {
         const response = data_requests.forecast_local;
 
