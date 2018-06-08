@@ -55,13 +55,13 @@ describe("Test util functions - good input", function () {
         result.should.be.equal(id1);
     });
 
-    it("getPathOfLocationsFile function", function () {
+    it("get_path_of_locations_file function", function () {
         let config = {"file_path": "C:\\Users\\{username}",
                       "filename": "locations"};
         let user = os.userInfo().username;
         let expected = `C:\\Users\\${user}\\locations`;
 
-        let result1 = util.getPathOfLocationsFile(config);
+        let result1 = util.get_path_of_locations_file(config);
 
         result1.should.be.a("string");
         result1.should.be.equal(expected);
