@@ -111,7 +111,7 @@ describe("Test correctness of real requests", function () {
     it("Test keys of endpoint forecast local", function () {
         const global_location_id = 1010500; // Aveiro
 
-        return requests.forecast_local(global_location_id)
+        return requests.forecast_location_several_days(global_location_id)
             .then(function (response) {
                 log.debug("TEST request successful!");
                 response.should.be.a("object");
